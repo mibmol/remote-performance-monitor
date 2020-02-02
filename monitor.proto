@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+message SystemInfo {
+	string system_name = 1;
+	string version = 2;
+	int32 num_processors = 3;
+	int32 mem_total = 4; //en KB
+}
+
+message PerformanceInfo {
+	float uptime = 1;
+	repeated int32 processor_usage = 2; //en porcentaje, un valor por procesador
+	int32 mem_free = 3; //en KB
+	int32 num_process = 4;
+	int32 num_process_running = 5;
+	
+	message LoadAvg {
+		float min5 = 1;
+		float min10 = 2;
+		float min15 = 3;
+	}
+	LoadAvg loadavg = 6;
+}

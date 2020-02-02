@@ -1,0 +1,12 @@
+
+Monitord broadcasts the host's usage and performance data to all connected clients.
+Usage:
+	$ ./monitord    ## run daemon in port 8000, events are register in syslog.
+	$ ./monitord -c [<port>]
+	$ ./monitord [-l <log_file>] [<port>]
+	$ ./monitord -h
+
+Options:
+	-h  Help, show this screen.
+	-c  Console mode.
+	-l  <log_file> Log file to use [default: log.txt].

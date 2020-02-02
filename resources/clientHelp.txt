@@ -1,0 +1,7 @@
+Usage:
+	$ ./monitorc       ## connect to localhost 8000
+	$ ./monitorc [<ip>] [<port>]
+	$ ./monitorc -h
+
+Options:
+	-h    Help, show this screen.
