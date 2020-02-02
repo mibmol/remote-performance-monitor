@@ -2,8 +2,6 @@
 * This the main client program.
 * For method definitions and usage, please see the client.h file in the include folder.
 */
-
-
 #include "client.h"
 
 static int run = 1;
@@ -101,7 +99,6 @@ int main(int argc, char *argv[]){
         printPerformanceInfo(*performance_msg);
 
         performance_info__free_unpacked(performance_msg , NULL);
-
     }
 
     system_info__free_unpacked(system_info_msg , NULL);

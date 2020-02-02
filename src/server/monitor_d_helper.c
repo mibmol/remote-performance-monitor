@@ -40,8 +40,6 @@ int sendSystemInfo(int connfd){
 		return -1;
 	}
 
-
-
 	Free(msg.system_name);
 	Free(msg.version);
 	Free(buff);
@@ -60,7 +58,6 @@ int sendPerformanceInfo(int connfd){
 	load_processor_usage(&data);
 	load_mem_free(&data);
 	load_processInfo(&data);
-
 
 	msg.uptime = data.uptime;
 

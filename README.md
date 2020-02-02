@@ -78,12 +78,6 @@
 
 ---
 
-## Contributors:
-
-* Neythan Leon Vasquez.
-* Miguel Patiño San-yeng.
-
-
 
 
 # **Monitor Remoto de Rendimiento.**
@@ -166,8 +160,3 @@
 		Muestra la ayuda.
 
 ---
-
-## Contribuidores:
-
-* Neythan Leon Vasquez.
-* Miguel Patiño San-yeng.
